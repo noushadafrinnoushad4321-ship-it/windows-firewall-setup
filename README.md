@@ -1,46 +1,37 @@
-#  Task 4: Setup and Use a Firewall on Windows
+# Windows Firewall Configuration – Task 4
 
-## **Objective**
-Configure and test basic firewall rules to allow or block traffic on a Windows system.
+## Objective
+The objective of this task was to configure a firewall on Windows to control inbound network traffic by allowing or blocking specific ports, and to verify that the configuration works as expected.
 
 ---
 
-## **Tools Used**
+## Overview
+This task demonstrates the use of Windows Defender Firewall to secure a system by controlling access to network services. A specific port (Port 23, commonly used by Telnet) was blocked to prevent insecure connections, and the functionality of the firewall rule was verified. After testing, the system was restored to its original state.
+
+---
+
+## Tools Used
 - Windows Defender Firewall (built-in)
 - Command Prompt / Telnet Client
 
 ---
 
-## **Steps Performed**
+## Task Summary
+- The firewall configuration tool was opened to review current inbound rules.  
+- A new firewall rule was created to block inbound traffic on **Port 23**.  
+- The functionality of the rule was tested by attempting to connect to the blocked port; the connection failed, confirming that the firewall rule was effective.  
+- After testing, the firewall rule was removed to restore the system to its original configuration.  
 
-### **1. Open Firewall Configuration Tool**
-- Press **Win + R**, type `wf.msc`, and press **Enter**  
-- Windows Defender Firewall with Advanced Security opens
+---
 
-### **2. List Current Firewall Rules**
-- Click **Inbound Rules**  
-- Scroll through the rules to see existing configurations  
+## Outcome
+- The firewall successfully blocked inbound traffic on the targeted port.  
+- The system remained secure while other services continued to operate normally.  
+- The task reinforced understanding of firewall management, traffic filtering, and basic network security controls.  
 
-### **3. Add a Rule to Block Inbound Traffic (Port 23 – Telnet)**
-1. Click **Inbound Rules → New Rule → Port → TCP → Specific local ports → 23 → Block the connection → Apply to Domain/Private/Public → Name the rule: "Block Telnet Port 23" → Finish**  
-2. Confirm the rule is **Enabled**
+---
 
-**## 4.Task Outcome**
-- Blocked inbound traffic on **port 23 (Telnet)** successfully.  
-- Verified using `telnet localhost 23` → connection failed, proving the rule worked.  
-- Restored the firewall to its original state by removing the test rule.
-
-### **5. Test the Rule**
-1. Open **Command Prompt**  
-2. Run:
-```cmd telnet localhost 23
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a48d6138-eeb9-463e-9a02-fbdf2c19b428" />
-
-
--
-
-
-
-
-
+## Final Output
+*Screenshot of the Telnet test showing blocked port 23 goes here.*
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/da1d66a7-b8e7-4cb7-919c-d0d4600b580c" />
 
