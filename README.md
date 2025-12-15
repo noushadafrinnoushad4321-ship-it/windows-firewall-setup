@@ -35,6 +35,7 @@ Configure and test basic firewall rules to allow or block traffic on a Windows s
 2. Run:
 ```cmd
 telnet localhost 23
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b493222d-92f6-4200-a832-8f9bc5caf69b" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/75b0abc0-b039-4c25-817e-a7c85a586345" />
 
 
