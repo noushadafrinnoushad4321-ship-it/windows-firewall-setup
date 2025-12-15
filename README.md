@@ -1,4 +1,4 @@
-# Windows Firewall Configuration – Task 4
+# Windows Firewall Configuration 
 
 ## Objective
 The objective of this task was to configure a firewall on Windows to control inbound network traffic by allowing or blocking specific ports, and to verify that the configuration works as expected.
@@ -33,5 +33,6 @@ This task demonstrates the use of Windows Defender Firewall to secure a system b
 
 ## Final Output
 *Screenshot of the Telnet test showing blocked port 23 goes here.*
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/da1d66a7-b8e7-4cb7-919c-d0d4600b580c" />
 
