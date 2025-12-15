@@ -1,4 +1,4 @@
-# 🔥 Task 4: Setup and Use a Firewall on Windows
+#  Task 4: Setup and Use a Firewall on Windows
 
 ## **Objective**
 Configure and test basic firewall rules to allow or block traffic on a Windows system.
@@ -33,9 +33,14 @@ Configure and test basic firewall rules to allow or block traffic on a Windows s
 ### **5. Test the Rule**
 1. Open **Command Prompt**  
 2. Run:
-```cmd
-telnet localhost 23
+```cmd telnet localhost 23
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a48d6138-eeb9-463e-9a02-fbdf2c19b428" />
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/75b0abc0-b039-4c25-817e-a7c85a586345" />
+
+-
+
+
+
+
 
 
